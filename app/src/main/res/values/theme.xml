@@ -1,0 +1,18 @@
+<resources>
+    <color name="seat_background">#F7F8FA</color>
+    <color name="seat_surface">#FFFFFF</color>
+    <color name="seat_text">#131417</color>
+    <color name="seat_secondary">#51535B</color>
+    <color name="seat_line">#E2E3E8</color>
+    <color name="seat_button">#EDEEF2</color>
+    <color name="seat_selected">#E6EFFF</color>
+    <color name="seat_accent">#0054D4</color>
+    <color name="seat_on_accent">#FFFFFF</color>
+    <color name="seat_popup">#FFFFFF</color>
+    <color name="seat_ripple">#22131417</color>
+
+    <style name="SeatTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/seat_background</item>
+        <item name="android:colorAccent">@color/seat_accent</item>
+    </style>
+</resources>
